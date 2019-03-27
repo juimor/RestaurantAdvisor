@@ -18,7 +18,7 @@ class CreateMenusTable extends Migration
             $table->string('nom');
             $table->string('description');
             $table->integer('prix')->unsigned();
-            $table->Integer('id_restaurant')->unsigned();
+            $table->Integer('id_restaurants')->unsigned();
             $table->Integer('id_user')->unsigned();
             $table->timestamps();
         });
